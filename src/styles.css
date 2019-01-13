@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+/* Sets the background color of the SPA*/
+body {
+  background-color: #36C6E3;
+}
+/* Makes an off-color 180 degree circle based on the complement of the primary background color
+  normally, I would store these as SCSS variables and continue to reference them throughout the site
+ */
+.bubble-fade-offcolor-style {
+  background: #83E0F2;
+  display: inline-block;
+  margin: 0 1em 1em 0;
+  height: 700px;
+  width: 65%;
+  border-radius: 100%;
+  margin: -25% auto auto 15%;
+  position: absolute;
+}
+
