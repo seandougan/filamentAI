@@ -6,7 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Filament AI';
-  administrator = 'Rob Minford';
-  author = 'Sean Dougan';
+
 }
