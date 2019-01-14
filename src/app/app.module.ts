@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ChatBubbleComponent } from './chat-bubble/chat-bubble.component';
 import { ChatBoxComponent } from './chat-box/chat-box.component';
 import { ChatModalHelperComponent } from './chat-modal-helper/chat-modal-helper.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ChatModalHelperComponent } from './chat-modal-helper/chat-modal-helper.
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

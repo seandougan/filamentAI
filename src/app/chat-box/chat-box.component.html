@@ -1,28 +1,28 @@
 <div id="live-chat">
 
   <header>
-
     <img class="avatar" src="./assets/img/batman_avatar.svg">
-
-    <h4 id="RespiHeader">Respi-Mate</h4>
-
+    <h4 id="RespiHeader">Bat-Mate</h4>
   </header>
 
   <div class="chat">
-
     <div class="chat-history">
+      <div class="chat-message clearfix">
 
-    <form action="#" method="post">
+        <img src="./assets/img/batman_avatar.svg" class="avatar">
 
-      <fieldset>
+        <div class="chat-message-content clearfix">
 
-        <input type="text" placeholder="Type your message…" autofocus>
-        <input type="hidden">
+          <h5>Bat-Mate</h5>
 
-      </fieldset>
+          <p class="bat_paragraph"> 👋, I am Bat-Mate and I am here to help you as you learn how to use our device</p>
 
+        </div>
+  </div>
+</div>
+    <form>
+    <input #message id="MessengerInput" type="text" placeholder="Type your message…">
+    <button id="SubmitData" (click)="writeMessage(message.value)" ><img src="./assets/img/Send-02.png" width="30px" height="30px"></button>
     </form>
-
-  </div> <!-- end chat -->
-
-</div> <!-- end live-chat -->
+</div>
+</div>
