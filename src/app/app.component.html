@@ -1,6 +1,7 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div class="bubble-fade-offcolor-style">
-</div>
-
-
+<div>
+<div class="bubble-fade-offcolor-style"></div>
+  <app-chat-modal-helper id="ChatHelper"></app-chat-modal-helper>
+<app-chat-bubble (viewState)="onStateChange($event)" id="ChatBubble"></app-chat-bubble>
+  <app-chat-box *ngIf="!state"  id="ChatBox"></app-chat-box>
 <router-outlet></router-outlet>
+</div>

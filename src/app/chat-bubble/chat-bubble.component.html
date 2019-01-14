@@ -1,0 +1,4 @@
+<div class="speech-bubble">
+  <img *ngIf="isCollapsed" (click)="toggleCollapse()" id="Bubbles" src="./assets/img/bubbles.svg">
+  <div *ngIf="!isCollapsed" (click)="toggleCollapse()" id="CloseChat">&#xd7;</div>
+</div>

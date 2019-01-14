@@ -8,11 +8,11 @@ body {
 .bubble-fade-offcolor-style {
   background: #83E0F2;
   display: inline-block;
-  margin: 0 1em 1em 0;
   height: 700px;
   width: 65%;
   border-radius: 100%;
   margin: -25% auto auto 15%;
   position: absolute;
+  z-index: 0;
 }
 
